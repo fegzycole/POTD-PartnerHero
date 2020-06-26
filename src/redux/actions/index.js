@@ -1,8 +1,9 @@
-export const actions = {
+export default {
   ADD_DATE: 'ADD_DATE',
+  TOGGLE_SPINNER: 'TOGGLE_SPINNER',
+  ADD_FAVORITE: 'ADD_FAVORITE',
+  REMOVE_FAVORITE: 'REMOVE_FAVORITE',
+  ADD_PICTURE: 'ADD_PICTURE',
+  ADD_ERROR: 'ADD_ERROR',
+  SET_CURR_PICTURE: 'SET_CURR_PICTURE',
 };
-
-export const addDate = payload => ({
-  type: actions.ADD_DATE,
-  payload,
-});
